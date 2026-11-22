@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nueva Solicitud</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h1 class="title">
+                Nueva Solicitud
+            </h1>
+
+            <p class="subtitle">
+                Registro de requerimiento
+            </p>
+
+            <form action="confirmacion.html">
+
+                <div class="form-group">
+                    <label>Nombre del Cliente</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-group">
+                    <label>Tipo de Servicio</label>
+                    <select>
+                        <option>Soporte Técnico</option>
+                        <option>Mantenimiento</option>
+                        <option>Instalación</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Prioridad</label>
+                    <select>
+                        <option>Alta</option>
+                        <option>Media</option>
+                        <option>Baja</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Descripción</label>
+                    <textarea rows="5"></textarea>
+                </div>
+
+                <button class="btn">
+                    Guardar Solicitud
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
